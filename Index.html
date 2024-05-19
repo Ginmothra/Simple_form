@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <form action="">
+        <label for="Nama">Nama </label> 
+        <input type="text" name="Nama_Depan" placeholder="Nama Depan"> 
+        <input type="text" name="Nama_Belakang" placeholder="Nama belakang"> <br>
+        <br>
+        No.Hp 
+        <input type="text" name="No.Hp" placeholder="No.Hp"> <br> 
+        <br>
+        Email
+        <input type="text" name="Email" placeholder="Email"> <br>
+        <br>
+        Gender
+        <input type="radio" name="Gender" id="Laki" value="Laki-Laki"> Laki-Laki
+        <input type="radio" name="Gender" id="Perempuan" value="Perempuan"> Perempuan <br>
+        <br>
+        Jenjang 
+        <select name="Jenjang" id="Jenjang">
+            <option value="BLANK"></option>
+            <option value="TK">TK</option>
+            <option value="SD">SD</option>
+            <option value="SMP">SMP</option>
+            <option value="SMA">SMA</option>
+            <option value="KULIAH">KULIAH</option>
+        </select> 
+        <br> <br>
+        Hobi
+        <input type="checkbox" name="Hobi" id="Membaca">Membaca 
+        <input type="checkbox" name="Hobi" id="Menggambar">Menggambar
+        <input type="checkbox" name="Hobi" id="Menulis">Menulis
+        <br> <br>
+        <label for="" style="vertical-align: top;" >Alamat</label>
+        <textarea name="Alamat" rows="7" cols="50"></textarea>
+        <br> 
+        <button type="button">Kirim</button>
+    </form>
+</body>
+</html>
